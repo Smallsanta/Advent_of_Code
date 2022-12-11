@@ -33,10 +33,6 @@ Points = 0;
 % 3-3 = 0   -> tie
 % if 0 tie, if 1 or -2 win, if -1 or 2 loss
 
-%%
-% 1 - 1 = 0 (or 2-2 or 3-3) - tie
-% 2 - 1 = 1 (or 3-2) - win
-% 3 - 1 = 2 - win
 
 %%
 for i = 1:length(Key)
