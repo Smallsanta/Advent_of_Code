@@ -2,6 +2,9 @@
 
 % Data was saved to an CSV and then imported as a 2249x1 array of strings
 
+clear all
+load Day1Input.mat
+
 j = 0;
 Cal = 0;
 
@@ -16,3 +19,9 @@ for i = 1:length(Day1Input)
 end
 
 max(Output)
+
+% Part 2
+
+SortedOut = sort(Output,'descend');
+
+sum(SortedOut(1:3))
