@@ -72,23 +72,23 @@ for i = 1:length(MoveList)
     
     switch To % append moved creats to To stack and replace old ToStack
         case 1
-            Stack1 = char(string(flip(MoveChar))+string(Stack1));
+            Stack1 = char(string(MoveChar)+string(Stack1));
         case 2
-            Stack2 = char(string(flip(MoveChar))+string(Stack2));
+            Stack2 = char(string(MoveChar)+string(Stack2));
         case 3
-            Stack3 = char(string(flip(MoveChar))+string(Stack3));
+            Stack3 = char(string(MoveChar)+string(Stack3));
         case 4
-            Stack4 = char(string(flip(MoveChar))+string(Stack4));
+            Stack4 = char(string(MoveChar)+string(Stack4));
         case 5
-            Stack5 = char(string(flip(MoveChar))+string(Stack5));
+            Stack5 = char(string(MoveChar)+string(Stack5));
         case 6
-            Stack6 = char(string(flip(MoveChar))+string(Stack6));
+            Stack6 = char(string(MoveChar)+string(Stack6));
         case 7
-            Stack7 = char(string(flip(MoveChar))+string(Stack7));
+            Stack7 = char(string(MoveChar)+string(Stack7));
         case 8
-            Stack8 = char(string(flip(MoveChar))+string(Stack8));
+            Stack8 = char(string(MoveChar)+string(Stack8));
         case 9
-            Stack9 = char(string(flip(MoveChar))+string(Stack9));
+            Stack9 = char(string(MoveChar)+string(Stack9));
         otherwise
             fprintf("This code is ugly and I hate it.\n")
     end
